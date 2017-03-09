@@ -5,6 +5,7 @@ import { RouterModule }     	from '@angular/router';
 import { AppComponent }  		from './app.component';
 import { LoginComponent } 		from './login.component';
 import { DashboardComponent } 	from './dashboard.component';
+import { ModuleComponent }		from './module.component';
 
 import { AppRoutingModule } 	from './app-routing.module';
 
@@ -17,6 +18,7 @@ import { AppRoutingModule } 	from './app-routing.module';
         AppComponent,
         LoginComponent,
         DashboardComponent
+        ModuleComponent
     ],
     bootstrap:    [ AppComponent ]
 })

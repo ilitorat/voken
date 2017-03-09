@@ -1,11 +1,6 @@
 <div class="content">
-	<div class="module" id="tap-current">
-		Show current tap with icon
-	</div>
-	<div class="module" id="tap-next">
-		Show current top 3 choices for next beer
-	</div>
-	<div class="module" id="tap-previous">
-		Show feedback from last beer
-	</div>
+	<my-module [inputField]="test"></my-module>
+	<my-module [inputField]="{id:3,name:'test',header:'On Tap',body:'Current Beer On Tap'}"></my-module>
+	<my-module [inputField]="{id:3,name:'test',header:'On Deck',body:'Vote for the next keg'}"></my-module>
+	<my-module [inputField]="{id:3,name:'test',header:'On the Block',body:'Rate the last beer'}"></my-module>
 </div>
