@@ -17,7 +17,7 @@ import { AppRoutingModule } 	from './app-routing.module';
     declarations: [
         AppComponent,
         LoginComponent,
-        DashboardComponent
+        DashboardComponent,
         ModuleComponent
     ],
     bootstrap:    [ AppComponent ]
